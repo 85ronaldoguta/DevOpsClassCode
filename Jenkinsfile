@@ -27,7 +27,7 @@
                         sh 'mvn pmd:pmd'
                     }
                 }
-                stage('UnitTest'){
+                stage('UnitTest'){i
                     agent {label 'slave2'}
                     steps{
                     echo 'Testing'
